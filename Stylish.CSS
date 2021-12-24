@@ -1,0 +1,100 @@
+html {
+    height:100%;
+}
+
+body {
+    background-color: #c7cfd1;
+    font: 14px/110% 'Montserrat', sans-serif;
+    padding: 2em;
+    height:100%;
+}
+
+#site-wrapper {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    justify-content: center;
+}
+
+a {
+    color: #565656;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fbcf38;
+    text-decoration: underline;
+}
+
+.image-block, .text-block {
+    display:inline-block;
+}
+
+.text-block {
+    padding-left: 15px;
+    vertical-align: top;
+}
+
+.image-block {
+    float: inline-end;
+}
+
+
+#card {
+    background-image: URL("Images/icons-card-pattern.png");
+    padding:25px;
+    width: 500px;
+    max-width: 100%;
+    box-sizing:border-box;
+    margin:auto;
+    border-radius: 1.2em;
+    -webkit-box--shadow:6px 12px 38px -5px rgba(0, 0, 0, 0.26);
+    -moz-box--shadow: 6px 12px 38px -5px rgba(0,0,0,0.26);
+    box-shadow:6px 12px 38px -5px rgba(0,0,0,0.26)
+}
+
+
+h1 {
+    font-size: 18.5px;
+    color:darkolivegreen;
+    font-weight: bold;
+    margin-bottom: -7px;
+  }
+
+
+.Title-2 {
+    background-color: HSLa(46,96%,60%,0.5);
+    text-align:center;
+    color: #565656;
+    font-style:oblique;
+    font-size:16px;
+    padding-top:10px;
+    padding-bottom: 30px;
+    width:500px;
+    margin: auto;
+} 
+
+h2 {
+    font-size:15px;e
+    font-style:italic;
+    font-family:sans-serif;
+    font-weight: normal;
+ }
+
+
+
+.no-list-style {
+    list-style: none;
+    padding-left:0;
+}
+
+.no-list-style li {
+    display: inline-block;
+    padding-left:5pt;
+}
+
+.email {
+    font-size: 12.5px;
+    margin-top:-5px;
+    margin-bottom:-5px;
+}
